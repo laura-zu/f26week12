@@ -3,10 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Embedding External Resources</title>
+    <title>Embedding External Resources</title> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Shantell+Sans:ital,wght@0,300..800;1,300..800&family=Sour+Gummy:ital,wdth,wght@0,100..125,100..900;1,100..125,100..900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
+    <div class="container">
+        <header>
+            <h1>Embedding Things</h1>
+        </header>
+
+        <main>
+
+            <!-- ai prompt to add placeholder content:
+             inside the main add a section with an h3 and two paragraphs about snow-->
+            <section>
+                <h3>Snow</h3>
+                <p>Snow is frozen precipitation that falls from clouds as delicate ice crystals.</p>
+                <p>As snow blankets the landscape, it reflects sunlight and can transform familiar places into quiet winter scenes.</p>
+            </section>
+
+            <section>
+                <!--embedding videos from Youtube-->
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/qk6MeIXsUeU?si=PrWmhdZiMqjEJhmT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </section>
+
+            <section>
+                <!--embedding maps from google maps-->
+               <iframe class="maps" src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d2803.9903372572976!2d-75.76017908815273!3d45.349007320951884!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1salgonquin%20college!5e0!3m2!1sen!2sca!4v1795626347111!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+            </section>
+        </main>
+    </div>
+
+
+
+
     
 </body>
 </html>

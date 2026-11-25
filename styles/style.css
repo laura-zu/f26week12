@@ -1,0 +1,35 @@
+h1 {
+    font-family: "Sour Gummy", sans-serif;
+    font-size: 36px;
+    font-weight: 100;
+
+    /* for any other font roperty beyond bold and italic,
+    use font-variation-settings */
+
+    font-variation-settings: "wdth" 100;
+
+    transition: all 3s;
+}
+
+h1:hover{
+
+    font-weight: 900;
+     font-variation-settings: "wdth" 125;
+}
+
+h3 {
+    font-family: "Shantell Sans", cursive;
+    font-size: 24px;
+}
+
+p {
+    font-family: "Urbanist", sans-serif;
+}
+
+/* you have to set both the width and height of an iframe */
+
+.maps {
+    width: 50vw;
+    height: 35vw;
+}
+
